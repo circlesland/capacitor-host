@@ -9,11 +9,9 @@ const config: CapacitorConfig = {
 
 if (process.env.IS_DEV) {
   config["server"] = {
-    url: "http://192.168.1.238:3000",
+    url: "http://localhost:3000",
     cleartext: true,
   };
 }
-
-console.log("config", config);
 
 export default config;
