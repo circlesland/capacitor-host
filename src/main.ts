@@ -1,9 +1,11 @@
+import '@circlesland/frame-app/style/tailwind.scss';
+
 import { App as CapacitorApp, URLOpenListenerEvent } from '@capacitor/app';
-import App from 'frame-app/src/App.svelte';
+import App from '@circlesland/frame-app/src/App.svelte';
 
 import { AUTH_API_CALLBACK, AUTH_API_URL } from '../config/api';
 
-import type { ICirclesCustomWindow } from "frame-app/types/types";
+import type { ICirclesCustomWindow } from "@circlesland/frame-app/types/types";
 declare global {
   interface Window extends ICirclesCustomWindow {}
 }
