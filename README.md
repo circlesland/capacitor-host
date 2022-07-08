@@ -2,10 +2,10 @@
 
 ## How it works?
 
-The `capacitor-host` app will require the `frame-app` as a dependency and build together the full production app. All the host specific APIs will be injected into the `window` object.
+The `capacitor-host` app will require the `@circlesland/frame-app` as a dependency and build together the full production app. All the host specific APIs will be injected into the `window` object.
 
 ## Getting Started
 
-- Run `npm install`
-- Run `npm install [frame-app]`
-- Run `npm run dev`
+Check the [@circlesland/frame-app](https://github.com/circlesland/frame-app) README for getting started.
+
+- You'll need xcode installed to run the iOS build
