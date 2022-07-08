@@ -10,6 +10,7 @@ Check the [@circlesland/frame-app](https://github.com/circlesland/frame-app) REA
 
 - You'll need xcode installed to run the iOS build
 
-run with following ENV Vars:
+## run with following ENV Vars:
+
 VITE_AUTH_API_URL=https://auth-provider.vercel.app
 VITE_AUTH_CALLBACK=https://web-host-iota.vercel.app/open
