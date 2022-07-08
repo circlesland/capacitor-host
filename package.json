@@ -35,6 +35,6 @@
     "@capacitor/cli": "^3.6.0",
     "@capacitor/core": "^3.6.0",
     "@capacitor/ios": "^3.6.0",
-    "@circlesland/frame-app": "^0.0.3"
+    "@circlesland/frame-app": "^0.0.5"
   }
 }
